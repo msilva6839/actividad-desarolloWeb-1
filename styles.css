@@ -1,0 +1,20 @@
+#parentContainer {
+    width: 400px;
+    height: 400px;
+    background-color: #f55353;
+  }
+  #childContainer {
+    width: 100px;
+    height: 100px;
+    background-color: #feb139;
+  }
+
+  #parentContainer {
+    position: relative;
+  }
+  #childContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
